@@ -43,6 +43,7 @@ namespace PartyInvites.Controllers
             return "Hello World";
         }*/
 
+       
         public ViewResult Index()
         {
             int hour = DateTime.Now.Hour;
