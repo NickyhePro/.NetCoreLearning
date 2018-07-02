@@ -13256,11 +13256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\ASPNetLearning\\PartyInvites\\PartyInvites\\PartyInvites.csproj",
+      "projectUniqueName": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\AspNetCore\\PartyInvites\\PartyInvites\\PartyInvites.csproj",
       "projectName": "PartyInvites",
-      "projectPath": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\ASPNetLearning\\PartyInvites\\PartyInvites\\PartyInvites.csproj",
+      "projectPath": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\AspNetCore\\PartyInvites\\PartyInvites\\PartyInvites.csproj",
       "packagesPath": "C:\\Users\\Nick He\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\ASPNetLearning\\PartyInvites\\PartyInvites\\obj\\",
+      "outputPath": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\AspNetCore\\PartyInvites\\PartyInvites\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

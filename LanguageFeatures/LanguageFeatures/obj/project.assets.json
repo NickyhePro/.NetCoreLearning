@@ -13217,11 +13217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\ASPNetLearning\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
+      "projectUniqueName": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\AspNetCore\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
       "projectName": "LanguageFeatures",
-      "projectPath": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\ASPNetLearning\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
+      "projectPath": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\AspNetCore\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
       "packagesPath": "C:\\Users\\Nick He\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\ASPNetLearning\\LanguageFeatures\\LanguageFeatures\\obj\\",
+      "outputPath": "C:\\Users\\Nick He\\Documents\\Visual Studio 2017\\Projects\\AspNetCore\\LanguageFeatures\\LanguageFeatures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
