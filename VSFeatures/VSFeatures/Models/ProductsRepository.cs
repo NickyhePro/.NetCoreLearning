@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace VSFeatures.Models
 {
-    public class ProductsRepository
+    public class ProductsRepository : IRepository
     {
         private static ProductsRepository repository = new ProductsRepository();
 
@@ -31,7 +31,9 @@ namespace VSFeatures.Models
 
         public IEnumerable<Product> GetProducts => products.Values;
 
-        public void AddProduct(Product p) => products.Add(p.Name, p);
+        IEnumerable<Product> IRepository.GetProducts { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public void AddProduct(Product p) => products.Add(p?.Name, p);
 
 
     }

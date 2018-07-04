@@ -9,6 +9,19 @@ namespace VSFeatures.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index() => View(ProductsRepository.GetRepository.GetProducts.Where(p=>p.Price<50));
+        public IRepository repository = ProductsRepository.GetRepository;
+
+        public IActionResult Index() => View(repository.GetProducts.Where(p => p?.Price<50));
+
+        [HttpGet]
+        public IActionResult AddProduct() => View(new Product());
+
+        [HttpPost]
+        public IActionResult AddProduct(Product p)
+        {
+            repository.AddProduct(p);
+            return RedirectToAction("Index");
+        }
+    
     }
-}
+}   
